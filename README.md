@@ -30,7 +30,7 @@ python main.py
 ## Developer
 altaf
 
-SQLite database integration
+#SQLite database integration
 CRUD operations (Create, Read, Update, Delete)
 Student grade calculation
 Topper identification
