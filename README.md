@@ -28,4 +28,4 @@ A Python-based application to manage and analyze student academic performance.
 python main.py
 
 ## Developer
-Altaf
+altaf
