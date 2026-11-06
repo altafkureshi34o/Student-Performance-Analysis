@@ -29,3 +29,10 @@ python main.py
 
 ## Developer
 altaf
+
+SQLite database integration
+CRUD operations (Create, Read, Update, Delete)
+Student grade calculation
+Topper identification
+Class performance summary
+CSV data migration
