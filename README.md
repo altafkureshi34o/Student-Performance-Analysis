@@ -77,3 +77,11 @@ The project uses SQLite to store student records. The database file is generated
 Altaf Kureshi
 
 GitHub: https://github.com/altafkureshi34o
+
+## 📸 Project Screenshots
+
+### Subject Performance Analysis
+![Subject Performance](screenshot/subject_performance.png)
+
+### Grade Distribution
+![Grade Distribution](screenshot/grade_distribution.png)
