@@ -1,38 +1,79 @@
-
 # Student Performance Analysis System
 
-A Python-based application to manage and analyze student academic performance.
+A Python-based student performance management and analysis system that stores academic records in an SQLite database and presents meaningful insights through an interactive Streamlit dashboard.
 
-## Features
-- Add student records
-- Calculate total and percentage
-- Automatic grade calculation
-- Pass/Fail identification
-- Search students by roll number
-- Find class topper
-- Save records in CSV file
+## Project Overview
+
+This project helps manage student academic information and analyze performance across different subjects, including Mathematics, Python, and SQL.
+
+## Key Features
+
+- Add, view, search, update, and delete student records
+- Automatic total marks and percentage calculation
+- Grade and pass/fail result calculation
+- Identify class toppers
+- Subject-wise performance analysis
+- Class performance summary
+- Interactive dashboard with charts and statistics
+- SQLite database integration
 
 ## Technologies Used
+
 - Python
-- CSV File Handling
-- Functions
-- Lists and Dictionaries
+- SQLite
+- Streamlit
+- Pandas
+- Matplotlib
+- Git and GitHub
 
-## How to Run
+## Project Structure
 
-1. Install Python.
-2. Download this repository.
-3. Open the project folder in VS Code.
-4. Run the following command:
+```text
+Student-Performance-Analysis/
+│
+├── main.py
+├── dashboard.py
+├── database.py
+├── import_csv.py
+├── test_database.py
+├── students.csv
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
 
-python main.py
+## Installation and Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/altafkureshi34o/Student-Performance-Analysis.git
+```
+
+2. Open the project folder:
+
+```bash
+cd Student-Performance-Analysis
+```
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the Streamlit dashboard:
+
+```bash
+python -m streamlit run dashboard.py
+```
+
+## Database
+
+The project uses SQLite to store student records. The database file is generated locally and is not included in the public repository.
 
 ## Developer
-altaf
 
-#SQLite database integration
-CRUD operations (Create, Read, Update, Delete)
-Student grade calculation
-Topper identification
-Class performance summary
-CSV data migration
+Altaf Kureshi
+
+GitHub: https://github.com/altafkureshi34o
